@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
+body{
+    overflow-x: hidden;
+    padding: 15px;
+}
+.header{
+    height: 1690px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(https://www.pixel4k.com/wp-content/uploads/2018/10/wing-of-the-plane-sky-flight-4k_1540574519.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding-top: 20px;
+      
+}
+
+
+
+.login{
+    width: 100px;
+    outline : none !important;
+    /* width: 100px; */
+    padding: 8px 0;
+    background-image:  linear-gradient(#00ff7e,#1f3d90);
+    border-radius: 20px;
+    color: white;
+    float: right;
+    background: transparent;      
+    /* position: relative; */
+    /* top: -300px; */
+}
+.header h1,p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.header h1{
+    padding-top:260px ;
+    padding-bottom:0px;
+    font-size: 55px;
+
+}
+.header p{
+    margin: 18px 0 ;
+}
+
+.form-control{
+    border: 0 !important;
+    border-radius: 50px 0 0 50px !important;
+    margin:2px ;
+    box-shadow: none !important;
+    margin: auto;
+    width: 130%;
+    max-width: 500px;
+    align-items: center;
+    position: relative;
+    left: 600px;
+
+}
+
+.input-group-text {
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: #fff ;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    position: relative;
+    left: 860px;
+    bottom: 38px;
+  
+
+}
+.change_content::after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: rgb(255, 255, 255);
+   }
+   
+   @keyframes changetext{
+       0%{content: "welcome to india";}
+       15%{content: "भारत में आपका स्वागत है";}
+       30%{content: "ಭಾರತಕ್ಕೆ ಸುಸ್ವಾಗತ";}
+       45%{content: "இந்தியாவுக்கு வருக";}
+       60%{content: "భారతదేశానికి స్వాగతం";}
+       75%{content: "भारतात आपले स्वागत आहे";}
+       87%{content: "ਭਾਰਤ ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ";}
+       100%{content: "انڈیا میں خوش آمدید";}
+       /* 120%{content: "اഇന്ത്യയിലേക്ക് സ്വാഗതം";} */
+
+   }
+   .container2{
+position: relative;
+top: -50px;
+   }
+
+   #form{
+    background-color: #000;
+    height:800px;
+    width:1000px;
+    margin:auto;
+    padding:20px;
+    opacity: 0.8;
+    border-radius: 20px;
+   }
+   #form h3{
+    border-bottom: 2px solid #3399ff;
+    width:210px;
+    padding: 5px;
+}
+/* ::placeholder{
+    color:#fff
+} */
+#input #input-group{
+    width:300px;
+    margin:25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff;
+    font-weight: 800;
+}
+#input2 #input-group{
+    width:195px;
+    padding-left: 10px;
+    margin-left:25px;
+    margin-right:6px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff;
+    font-weight: 800;
+
+}
+#input3 #input-group{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#input4 #input-group{
+    width:300px;
+    margin-left:26px;
+    margin-right:25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff;
+}
+#input4 #input-group1{
+    width:615px;
+    margin:26px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff;
+    font-weight: 800;
+}
+
+#input5 h3{
+    border-bottom: 2px solid #3399ff;
+    width:220px;
+    padding: 5px;
+}
+#input6 #input-group{
+    width:300px;
+    margin:26px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff;
+    font-weight: 900;
+}
+#input6 #input-group1{
+    width:615px;
+    margin:26px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff;
+    font-weight: 900;
+}
+
+.container3{
+    position: relative;
+    top: 2px;
+    height: auto;
+    background-color:#17406c;
+    padding-top: 50px;
+    padding-left: 60px;
+
+}
+.container3 b{
+    color: white;
+    font-weight: bold;
+    font-size:larger;
+}
+.list{
+    position: relative;
+    top: 30px;
+    font-size: 100%;
+    /* cursor: pointer; */
+    padding-left: 150px;
+    color: white;
+    list-style: none;
+    height: 200px;
+    
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    /* margin-right: 100px; */
+    /* background-color: blanchedalmond; */
+    
+}
+.list .padd a{
+    color: white;
+    text-decoration: none;
+    font-weight: 120%;
+}
+ .padd1:hover{
+    font-weight: bold;
+}
+a:hover{
+    font-weight: bold;
+}
+.blue{
+    padding: 2px;
+}
+.contact{
+    width: 200px;
+    color: white;
+    list-style: none;
+    margin-top: 19px;
+    margin-left: 20px;
+}
+.end{
+    position: relative;
+    left: 600px;
+    color: white;
+    font-family: 'Ranchers', cursive;
+    text-shadow:2px 1px 1px black;
+    
+}
+.container3 hr{
+   margin-right: 49px;
+   color: white;  
+   
+}
+.copy{
+    position: relative;
+    left: 600px;
+    width: 300px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.copy:hover{
+    color: rgb(142, 142, 185);
+}
